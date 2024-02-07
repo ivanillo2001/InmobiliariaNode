@@ -8,6 +8,6 @@ import {cargarZonas, grabarDatosApartamento, mostrarInmuebles} from "../controll
 const router = Router(); //declaración del router
 
 router.get("/zonas",cargarZonas);//dirección de la funcion de mostrar zonas
-router.get("/inmuebles/:numHabitaciones/:precio/:idZona",mostrarInmuebles)
-router.post('/reserva/',grabarDatosApartamento)
+router.get("/inmuebles/:numHabitaciones/:precio/:idZona",mostrarInmuebles)//Direccion de la funcion para mostrar los inmuebles
+router.post('/reserva/',grabarDatosApartamento)//función encargada de grabar los datos en la bbdd
 export default router;//lo exportamos.

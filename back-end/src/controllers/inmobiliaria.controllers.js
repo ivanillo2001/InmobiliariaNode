@@ -18,6 +18,11 @@ export const cargarZonas = async (req, res) => {
     });
   }
 };
+/**
+ * @description Función encargada de mostrar los inmuebles obteniéndolos de la bbdd
+ * @param {*} req 
+ * @param {*} res 
+ */
 export const mostrarInmuebles = async(req,res)=>{
   try {
     const { numHabitaciones, precio, idZona } = req.params; //obtenemos los parametros
@@ -31,6 +36,11 @@ export const mostrarInmuebles = async(req,res)=>{
   }
 }
 
+/**
+ * @description Función encargada de insertar las reservas en la bbdd
+ * @param {*} req 
+ * @param {*} res 
+ */
 export const grabarDatosApartamento = async(req,res)=>{
   try {
     const {dni, idinmuebles}=req.body;

@@ -240,9 +240,9 @@ function grabarDatosApartamento(){
       
 }
 
-// /**
-//  * @description Funcion encargada de resetear todo el formulario
-//  */
+/**
+ * @description Funcion encargada de resetear todo el formulario
+ */
 function limpiarFormulario() {
   $("#dni").val("");
   $("#zona").val("");
