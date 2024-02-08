@@ -129,7 +129,7 @@ function cargarZonas() {
   xmlHttp.send();
 }
 
-// /**
+
 //  * @description Función que muestra los inmuebles que haya según los parámetros que se hayan introducido
 //  * en el formulario.
 //  */
