@@ -208,9 +208,7 @@ function grabarDatosApartamento(){
       //obtenemos los valores de cada inmueble de la tabla
       const inmuebleSeleccionado = tabla.rows({selected:true}).data().toArray();
       //ahora obtenemos los ids de los inmuebles seleccionados:
-      const dniEscrito=$("#dni").val();
-      console.log(dniEscrito);
-   
+      const dniEscrito=$("#dni").val();   
       inmuebleSeleccionado.forEach(inmueble => {
         const id = inmueble.idinmuebles
         const datos={
